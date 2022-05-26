@@ -1,0 +1,32 @@
+.form {
+  display: grid;
+  grid-gap: 6px;
+}
+
+.form-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 6px;
+}
+
+.content.contact {
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.center-vertical {
+  justify-content: center;
+}
