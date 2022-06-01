@@ -14,42 +14,62 @@
 </head>
 
 <body>
-  <header>
-    <h3>My Personal Portfolio</h3>
-  </header>
+  <aside class="sidebar">
+    <div class="sidebar-items">
+      <ul class="sidebar-list">
+        <li><a href="index.html" class="nav-item">About</a></li>
+        <li><a href="#education" class="nav-item">Education</a></li>
+        <li><a href="#experience" class="nav-item">Experience</a></li>
+        <li><a class="nav-item nav-item-borderBottom" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-  <main class="main-container border">
-    <aside class="sidebar border">
-      <div class="sidebar-items border">
-        <ul class="sidebar-list">
-          <li><a class="nav-item">About</a></li>
-          <li><a class="nav-item">Education</a></li>
-          <li><a class="nav-item">Experience</a></li>
-          <li><a class="nav-item nav-item-borderBottom" href="contact.html">Contact</a></li>
+    <div>
+      <a href="https://github.com/Rkhokerashvili" target="__blank">
+        <img src="images/github.svg" width="24" />
+      </a>
+      <a href="https://www.linkedin.com/in/rusa-khokerashvili-b1280623a/" target="__blank">
+        <img src="images/linkedin.svg" width="24" />
+      </a>
+    </div>
+  </aside>
+
+  <main class="main-container">
+    <header>
+      <h3 class="title">My Personal Portfolio</h3>
+    </header>
+
+    <!-- move this in css class -->
+    <div class="container">
+      <section class="content">
+        <div class="text-zone">
+          <h1 class="text-zone-item">Hi,</h1>
+          <h1 class="text-zone-item">I'm Rusa,</h1>
+          <h1 class="text-zone-item">web developer</h1>
+          <p class="gray-text">Learning at the Digital Institute - Software Development Course</p>
+          <a class="flat-button" href="contact.html">Contact Me</a>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <h2 class="list-title">Education</h2>
+        <ul class="list">
+          <li>Bachelor's degree - Tbilisi State University, Faculty of law</li>
+          <li>Magister degree - Tbilisi State University, Faculty of law</li>
+          <li>Software Development Course - Digital Institute</li>
         </ul>
-      </div>
+      </section>
 
-      <div class="border">
-        <a href="https://github.com/Rkhokerashvili" target="__blank">
-          <img src="images/github.svg" width="24" />
-        </a>
-        <a href="https://www.linkedin.com/in/rusa-khokerashvili-b1280623a/" target="__blank">
-          <img src="images/linkedin.svg" width="24" />
-        </a>
-      </div>
-    </aside>
-
-    <section class="content border">
-      <div>
-        <h1>Hi,</h1>
-        <h1>I'm Rusa,</h1>
-        <h1>web developer</h1>
-        <p>learning at Digital Institute - Intro To Software Development Course</p>
-        <button>Contact Me</button>
-      </div>
-      <!--img icon-->
-      <span>Scroll Down</span>
-    </section>
+      <section id="experience" class="section">
+        <h2 class="list-title">Experience</h2>
+        <ul class="list">
+          <li>Intern - Tbilisi City Court</li>
+          <li>Intern - Revenue Service, Department of Audit</li>
+          <li>Intern - Ministry of Internal Affairs</li>
+          <li>Assistant Lawyer - Company "Natakhtari"</li>
+        </ul>
+      </section>
+    </div>
   </main>
 </body>
 

@@ -8,47 +8,50 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/index.css" />
   <link rel="stylesheet" href="css/contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <h3>My Personal Portfolio</h3>
-  </header>
+  <aside class="sidebar">
+    <div class="sidebar-items">
+      <ul class="sidebar-list">
+        <li><a href="index.html" class="nav-item">About</a></li>
+        <li><a href="#education" class="nav-item">Education</a></li>
+        <li><a href="#experience" class="nav-item">Experience</a></li>
+        <li><a class="nav-item nav-item-borderBottom" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-  <main class="main-container border">
-    <aside class="sidebar border">
-      <div class="sidebar-items border">
-        <ul class="sidebar-list">
-          <li><a>About</a></li>
-          <li><a>Education</a></li>
-          <li><a>Experience</a></li>
-          <li><a>Contact</a></li>
-        </ul>
-      </div>
+    <div>
+      <a href="https://github.com/Rkhokerashvili" target="__blank">
+        <img src="images/github.svg" width="24" />
+      </a>
+      <a href="https://www.linkedin.com/in/rusa-khokerashvili-b1280623a/" target="__blank">
+        <img src="images/linkedin.svg" width="24" />
+      </a>
+    </div>
+  </aside>
 
-      <div class="border">
-        <a href="https://github.com/Rkhokerashvili" target="__blank">
-          <img src="images/github.svg" width="24" />
-        </a>
-        <a href="https://www.linkedin.com/in/rusa-khokerashvili-b1280623a/" target="__blank">
-          <img src="images/linkedin.svg" width="24" />
-        </a>
-      </div>
-    </aside>
-    <section class="content contact border">
-      <div class="flex flex-column center-vertical fluid">
-        <h1>Contact Me</h1>
-        <p>I'm interested in freelance opportunities - especially ambitios or large projects. However, if you have other
+  <main class="main-container">
+    <header>
+      <h3 class="title">My Personal Portfolio</h3>
+    </header>
+
+    <section class="content contact">
+      <div class="flex flex-column center-vertical contact-form fluid">
+        <h1 class="list-title">Contact Me</h1>
+        <p class="paragraph">I'm interested in freelance opportunities - especially ambitios or large projects. However,
+          if you have other
           request or question, don't hesitate to use the form</p>
         <div class="form">
           <div class="form-row">
-            <input name="name" placeholder="name" />
-            <input name="email" placeholder="email" />
+            <input class="form-control" name="name" placeholder="name" />
+            <input class="form-control" name="email" placeholder="email" />
           </div>
-          <input name="subjet" placeholder="subject" />
-          <textarea name="message" placeholder="message"></textarea>
+          <input class="form-control" name="subjet" placeholder="subject" />
+          <textarea class="form-control" name="message" placeholder="message"></textarea>
         </div>
-        <button>send message</button>
+        <button class="form-control">send message</button>
       </div>
       <div class="fluid">
 
