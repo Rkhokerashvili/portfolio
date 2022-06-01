@@ -130,7 +130,7 @@ body {
 }
 
 .container {
-  overflow: hidden;
+  overflow: auto;
   padding-left: 50px;
   width: 100%;
 }
